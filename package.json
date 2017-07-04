@@ -1,0 +1,31 @@
+{
+  "name": "kobizu",
+  "version": "0.1.0",
+  "description": "expense tracker",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "httpd://github.com/shichiko/kobizu.git"
+  },
+  "keywords": [
+    "expense",
+    "tracker"
+  ],
+  "author": "David M Smith, Jr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shichiko/kobizu/issues"
+  },
+  "homepage": "https://github.com/shichiko/kobizu#readme"
+}
